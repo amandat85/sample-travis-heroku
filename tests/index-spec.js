@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // import { describe } from "mocha";
 
 const expect = require('chai').expect;
