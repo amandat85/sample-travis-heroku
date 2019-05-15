@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  
+ 
   console.log('req = \n', req);
   res.send('Test CI with Travis');
 });
