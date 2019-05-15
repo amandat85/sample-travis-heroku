@@ -1,8 +1,9 @@
+/* eslint-disable no-undef */
 // import { describe } from "mocha";
 
 import {describe} from "mocha";
 
-const chai = require('chai');
+const chai = require("chai");
 const expect = chai.expect;
 const server = require('../server');
 
