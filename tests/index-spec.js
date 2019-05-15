@@ -1,9 +1,12 @@
-/* eslint-disable no-console */
 // import { describe } from "mocha";
 
-const expect = require('chai').expect;
-const server = require('../../../sample-travis-heroku-repo/server');
+import {describe} from "mocha";
 
+const chai = require('chai');
+const expect = chai.expect;
+const server = require('../server');
+
+// eslint-disable-next-line no-console
 console.log("test file, server = \n", server);
 
 describe('test', () => {
