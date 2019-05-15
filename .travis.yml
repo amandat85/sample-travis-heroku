@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- stable
+npm: true
+  cache:
+    directories:
+     - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: uz/w6A9dAznHpQUYiD0isOTJNDpc8qvbpb6A8C+PGPn//CcAIUBB1RvQk/SuqWwf6ea45oDQaJlfs8TwHaJbDH89OjoRLGpkriim/HZNpBs8Zmy/wikwSMDUnLlqGRwuXQ3K+6ScZmQ3oHsILq7S3OZ7+6NATUPwekak8ASxfufxo36dolNzetXS1pm1H+eLoxIUMuMqwsgwttiwct+F3P4M9hH8m43LIlvFTGrc5FwDcvZCIMA8N3L3NlzwwxMu20r8RrRckcj8mQY+tuGF5wZPZxGG7Lhg1w6Z1PJjikyOpa9tyRMvtjlaZk12bUHrYwGQqafpUtMwgcl7py295px+6tGrN3pIzpvXWVXGC6BRpNSW8Cf93ofQKrrSCMFDs8CVr/zo9AbSoiyRobashVUuFOK6erE+ofJKX26Bg758jsqxyksr78ekJdqTb051RFTr81NkUL2iPjuFXXC2EI2hJ560phfPHsDK51sPkHNwn8DU9uEK9Ey6dMr1nWjbKaQ9jYJmui0mTpvVF1/1aJo2hOYkPOtGvLpMjwhei32qfQQmEg/XIM5dWwO1/L+KtNzTTOsNfrBC/N9QZpGka7vlfMjnWe9dgcBu00vTtFkvuGUi6Gn9QOu8HEiLqTUvgGsHCeCCWV0fNxMDOMjqynXNgCd4IJxhAAZVPuT7NvQ=
+  app: quiet-sierra-80095
+  on:
+    repo: amandat85/sample-travis-heroku
