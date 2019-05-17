@@ -1,10 +1,10 @@
+/* eslint-disable no-console */
 /* server.js main file by Amanda Tome */
 const express = require('express');
 
 const app = express();
 
 app.get('/', (req, res) => {
-  // eslint-disable-next-line no-console
   console.log('req = \n', req);
   res.send('Test CI with Travis');
 });
